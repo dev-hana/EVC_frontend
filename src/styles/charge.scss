@@ -1,0 +1,193 @@
+.charge-page {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto 30px;
+
+  .charge-title {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #292e31;
+
+    .charge-point-title {
+      font-size: 25px;
+      font-weight: 700;
+      color: #0566a3;
+    }
+
+    .charge-address {
+      margin-top: 5px;
+      font-size: 15px;
+      font-weight: normal;
+    }
+
+    .anticon-heart {
+      color: #fda4b4;
+      font-size: 23px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .charge-contents {
+    display: flex;
+    height: inherit;
+
+    .charge-left {
+      width: 50%;
+      margin-right: 50px;
+    }
+
+    .charge-right {
+      width: 50%;
+      .grafana-stat{
+        display: flex;
+      }
+    }
+    
+
+    .charge-detail-group {
+      width: 100%;
+      margin: 30px 0 0;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      .sub-title {
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+      .ant-rate {
+        margin-bottom: 5px;
+      }
+
+      .charge-iframe {
+        flex: 1;
+        margin-top: 10px;
+        width: 100%;
+        height: 415px;
+        border: none;
+        overflow: hidden;
+      }
+    }
+
+    .charge-detail-item {
+      width: 100%;
+      border-bottom: 1px solid #e6e6e6;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .charge-detail-row {
+        display: flex;
+        align-items: center;
+        margin: 8px 0 8px 23px;
+        font-size: 14px;
+
+        &:first-child {
+          margin: 10px 0;
+        }
+
+        .row-title {
+          width: 200px;
+          color: #666;
+        }
+
+        .charge-name {
+          display: flex;
+          align-items: center;
+          margin-right: 10px;
+          font-size: 15px;
+          color: #000;
+
+          .status-dot {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-right: 8px;
+            border-radius: 100%;
+
+            &.bg-red {
+              background-color: #e7181c;
+            }
+
+            &.bg-blue {
+              background-color: #0566a3;
+            }
+
+            &.bg-grey {
+              background-color: #888;
+            }
+          }
+
+          .charge-id {
+            margin-left: 5px;
+            font-size: 13px;
+          }
+        }
+
+        .charge-status {
+          display: inline-block;
+
+          .status {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 65px;
+            padding: 3px 10px;
+            font-size: 12px;
+            font-weight: 700;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+
+    .reivew-textarea {
+      width: 100%;
+      padding: 5px;
+      border-radius: 5px;
+      border-color: #e6e6e6;
+      resize: none;
+      outline: none;
+    }
+
+    .review-list {
+      margin: 10px 0;
+
+      .review-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .review-buttons {
+          .anticon {
+            margin-left: 10px;
+            font-size: 15px;
+            cursor: pointer;
+          }
+        }
+
+        .edit-btn {
+          width: 100px;
+          height: 76px;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .contents {
+      margin-top: 5px;
+    }
+
+    .map {
+      width: 100%;
+      height: 300px;
+      margin-top: 10px;
+    }
+  }
+}

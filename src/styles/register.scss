@@ -1,0 +1,42 @@
+// register
+.register-page {
+  max-width: 450px;
+  height: inherit;
+  margin: 20px auto 30px;
+
+  .auth-btn {
+    width: 100px;
+    height: 35px;
+    margin-left: 5px;
+  }
+
+  .email-auth {
+    margin-top: 5px;
+
+    .auth-email-btn {
+      width: 150px;
+      height: 35px;
+      margin-left: 5px;
+    }
+  }
+
+  .register-complete {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+
+    .complete-msg {
+      color: #0566a3;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .to-login {
+      margin-top: 60px;
+      width: 150px;
+    }
+  }
+}

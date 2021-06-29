@@ -1,0 +1,84 @@
+.find-id-page,
+.find-password-page {
+  width: 450px;
+  margin: 20px auto 30px;
+
+  form {
+    width: 100%;
+  }
+
+  .find-complete {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    margin-top: 80px;
+
+    .complete-msg {
+      color: #0566a3;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .to-login {
+      margin-top: 60px;
+      width: 150px;
+    }
+
+    &.pwd {
+      margin-top: 30px !important;
+    }
+  }
+
+  .auth-email-btn {
+    width: 150px;
+    height: 37px;
+    margin-left: 5px;
+  }
+
+  .input-key {
+    margin-top: 10px;
+  }
+}
+
+// .find-password-page {
+//     width: 450px;
+//     margin: 20px auto 30px;
+
+//     .find-complete {
+//       position: relative;
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       top: 30%;
+//       margin-top: 80px;
+
+//       form {
+//         width: 100%;
+//       }
+
+//       .complete-msg {
+//         color: #0566a3;
+//         font-size: 18px;
+//         font-weight: 700;
+//       }
+
+//       .to-login {
+//         margin-top: 60px;
+//         width: 150px;
+//       }
+//     }
+
+//     .auth-email-btn {
+//       width: 150px;
+//       height: 37px;
+//       margin-left: 5px;
+//     }
+
+//     .input-key {
+//       margin-top: 10px;
+//     }
+//   }

@@ -1,0 +1,27 @@
+.login-page {
+  width: 450px;
+  margin: 20px auto 30px;
+
+  .sub-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    .sub-text {
+      padding: 0 10px;
+      color: #535353;
+      font-size: 13px;
+      text-decoration: none;
+      border-right: 1px solid;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &:hover {
+        font-weight: 700;
+      }
+    }
+  }
+}
